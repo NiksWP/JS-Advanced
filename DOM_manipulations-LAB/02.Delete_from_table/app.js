@@ -1,4 +1,5 @@
 function deleteByEmail() {
+    
     const inputElement = document.querySelector("input[name=email]");
     const resultELement = document.getElementById("result");
     const trElements = document.querySelectorAll('#customers tbody tr');
